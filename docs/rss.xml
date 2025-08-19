@@ -1,5 +1,77 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>바이브 넷</title><link>https://o2sky86.github.io</link><description>바카라사이트와 카지노사이트 추천 리스트를 찾고 계시나요? 2025년 현재 한국 이용자들이 가장 선호하는 바카라사이트와 카지노사이트를 꼼꼼히 정리해봤습니다. 인기 높은 이들 사이트에서 편안하게 즐겁게 플레이해보시는 건 어떨까요?</description><copyright>바이브 넷</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://o2sky86.github.io</link></image><lastBuildDate>Tue, 12 Aug 2025 10:39:31 +0000</lastBuildDate><managingEditor>바이브 넷</managingEditor><ttl>60</ttl><webMaster>바이브 넷</webMaster><item><title>바카라사이트를 선택하고 안전하게 이용하는 방법</title><link>https://o2sky86.github.io/post/%EB%B0%94%EC%B9%B4%EB%9D%BC%EC%82%AC%EC%9D%B4%ED%8A%B8%EB%A5%BC%20%EC%84%A0%ED%83%9D%ED%95%98%EA%B3%A0%20%EC%95%88%EC%A0%84%ED%95%98%EA%B2%8C%20%EC%9D%B4%EC%9A%A9%ED%95%98%EB%8A%94%20%EB%B0%A9%EB%B2%95.html</link><description>`바카라사이트를 선택하고 안전하게 이용하는 방법
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>바이브 넷</title><link>https://o2sky86.github.io</link><description>바카라사이트와 카지노사이트 추천 리스트를 찾고 계시나요? 2025년 현재 한국 이용자들이 가장 선호하는 바카라사이트와 카지노사이트를 꼼꼼히 정리해봤습니다. 인기 높은 이들 사이트에서 편안하게 즐겁게 플레이해보시는 건 어떨까요?</description><copyright>바이브 넷</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://o2sky86.github.io</link></image><lastBuildDate>Tue, 19 Aug 2025 12:49:06 +0000</lastBuildDate><managingEditor>바이브 넷</managingEditor><ttl>60</ttl><webMaster>바이브 넷</webMaster><item><title>모든 Windows 10 컴퓨터에서 35일 동안 업데이트를 중지하는 방법 (공식 방법)</title><link>https://o2sky86.github.io/post/%EB%AA%A8%EB%93%A0%20Windows%2010%20%EC%BB%B4%ED%93%A8%ED%84%B0%EC%97%90%EC%84%9C%2035%EC%9D%BC%20%EB%8F%99%EC%95%88%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8%EB%A5%BC%20%EC%A4%91%EC%A7%80%ED%95%98%EB%8A%94%20%EB%B0%A9%EB%B2%95%20%28%EA%B3%B5%EC%8B%9D%20%EB%B0%A9%EB%B2%95%29.html</link><description>
+설정을 엽니다.
+
+업데이트 및 보안을 엽니다.
+
+하단에서 고급 옵션을 선택합니다.
+
+업데이트 일시 중지라는 텍스트가 있습니다.
+
+아래 버튼을 토글하여 최대 35일 동안 업데이트를 일시 중지합니다.
+
+35일이 지나면 Windows를 업데이트하여 다시 일시 중지해야 합니다.
+
+완료되었습니다. 아주 쉽죠.
+
+35일 이상 업데이트 일시 중지
+참고: 이 방법은 해킹이나 불법이 아니며, 이 방법은 35일 값을 원하는 일수로 변경하는 데 사용됩니다.
+
+실행 명령을 열거나 WIN + R을 사용하여 엽니다.
+
+regedit를 입력하고 Enter 키를 누릅니다.
+
+필요한 경우 YES를 선택합니다.
+
+다음 디렉토리로 이동하거나 이동할 수 있습니다.
+
+HKEY_LOCAL_MACHINE
+
+SOFTWARE
+
+Microsoft
+
+WindowsUpdate
+
+UX
+
+Settings
+
+   Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsUpdate\UX\Settings 
+또는 위의 코드를 복사하여 레지스트리 편집기의 주소 표시줄에 붙여넣습니다.
+
+위의 경로에서 설정을 클릭하면 많은 옵션이 표시됩니다.
+
+FlightSettingsMaxPauseDays를 찾으십시오.
+
+표시될 수도 있고 표시되지 않을 수도 있습니다.
+
+찾을 수 없으면 빈 공간을 마우스 오른쪽 버튼으로 클릭하고 새로 만들기 &gt; DWORD(32비트) 값을 선택합니다.
+
+값 이름에 아래 단어를 입력합니다.
+
+   FlightSettingsMaxPauseDays 
+이제 위의 항목을 마우스 오른쪽 버튼으로 클릭하고 수정을 클릭합니다.
+
+십진수 옵션을 선택합니다.
+
+값 데이터 옵션에서 업데이트를 일시 중지할 일수를 입력합니다.
+
+확인을 클릭하여 파일을 저장합니다.
+
+이제 아래 단계를 따라 업데이트를 일시 중지합니다.
+
+설정을 엽니다.
+
+업데이트 및 보안을 엽니다.
+
+하단에서 고급 옵션을 선택합니다.
+
+업데이트 일시 중지라는 텍스트가 있습니다.
+
+아래 버튼을 토글하여 원하는 일수만큼 업데이트를 일시 중지합니다.
+
+완료되었습니다. 아주 쉽죠.。</description><guid isPermaLink="true">https://o2sky86.github.io/post/%EB%AA%A8%EB%93%A0%20Windows%2010%20%EC%BB%B4%ED%93%A8%ED%84%B0%EC%97%90%EC%84%9C%2035%EC%9D%BC%20%EB%8F%99%EC%95%88%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8%EB%A5%BC%20%EC%A4%91%EC%A7%80%ED%95%98%EB%8A%94%20%EB%B0%A9%EB%B2%95%20%28%EA%B3%B5%EC%8B%9D%20%EB%B0%A9%EB%B2%95%29.html</guid><pubDate>Tue, 19 Aug 2025 12:48:37 +0000</pubDate></item><item><title>바카라사이트를 선택하고 안전하게 이용하는 방법</title><link>https://o2sky86.github.io/post/%EB%B0%94%EC%B9%B4%EB%9D%BC%EC%82%AC%EC%9D%B4%ED%8A%B8%EB%A5%BC%20%EC%84%A0%ED%83%9D%ED%95%98%EA%B3%A0%20%EC%95%88%EC%A0%84%ED%95%98%EA%B2%8C%20%EC%9D%B4%EC%9A%A9%ED%95%98%EB%8A%94%20%EB%B0%A9%EB%B2%95.html</link><description>`바카라사이트를 선택하고 안전하게 이용하는 방법
 **
 바카라는 전 세계적으로 인기 있는 카지노 게임 중 하나이며, 온라인을 통해 쉽게 접근할 수 있는 바카라사이트의 수도 점점 증가하고 있습니다. 하지만 많은 사이트 중에서 안전하고 편리하게 이용할 수 있는 곳을 선택하는 것은 쉽지 않은 일입니다. 이번 글에서는 바카라사이트를 선택할 때 고려해야 할 점과 안전하게 이용하는 방법을 알려드리겠습니다.
 1. 신뢰할 수 있는 라이센스 확인하기
